@@ -62,16 +62,16 @@
 					<el-collapse-item title="Rhythm adjustment" name="adjustment">
 						<el-form label-position="left" label-width="3em">
 							<el-form-item label="H1">
-								<el-slider v-model="config.scale.factors.h1" :min="0" :max="6" :show-stops="true"></el-slider>
+								<el-slider v-model="config.scale.factors.h1" :min="0" :max="6"  :step=".05" show-input></el-slider>
 							</el-form-item>
 							<el-form-item label="H2">
-								<el-slider v-model="config.scale.factors.h2" :min="0" :max="6" :show-stops="true"></el-slider>
+								<el-slider v-model="config.scale.factors.h2" :min="0" :max="6"  :step=".05" show-input></el-slider>
 							</el-form-item>
 							<el-form-item label="H3">
-								<el-slider v-model="config.scale.factors.h3" :min="0" :max="6" :show-stops="true"></el-slider>
+								<el-slider v-model="config.scale.factors.h3" :min="0" :max="6"  :step=".05" show-input></el-slider>
 							</el-form-item>
 							<el-form-item label="H4">
-								<el-slider v-model="config.scale.factors.h4" :min="0" :max="6" :show-stops="true"></el-slider>
+								<el-slider v-model="config.scale.factors.h4" :min="0" :max="6"  :step=".05" show-input></el-slider>
 							</el-form-item>
 						</el-form>
 					</el-collapse-item>

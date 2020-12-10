@@ -11,15 +11,15 @@ doc.addEventListener( 'DOMContentLoaded', () => {
 		data: {
 			config: {
 				baseFontSize: 16,
-				baseLineHeight: 1.6,
-				capHeight: 0.68,
+				baseLineHeight: 1.5,
+				capHeight: 0.73,
 				font: {
-					current: 'Helvetica',
+					current: 'Inter',
 					options: [
 						{ value: 'Arial', label: 'Arial' },
 						{ value: 'Georgia', label: 'Georgia' },
 						{ value: 'Helvetica', label: 'Helvetica' },
-						{ value: 'Roboto', label: 'Roboto' },
+						{ value: 'Inter', label: 'Inter' },
 						{ value: 'Times New Roman', label: 'Times New Roman' },
 					],
 					boldHeaders: true
@@ -37,8 +37,8 @@ doc.addEventListener( 'DOMContentLoaded', () => {
 						{ value: 2, label: 'Octave (2.0)' },
 					],
 					factors: {
-						h1: 4,
-						h2: 3,
+						h1: 3.25,
+						h2: 2.4,
 						h3: 2,
 						h4: 1,
 						p: 0
@@ -49,14 +49,14 @@ doc.addEventListener( 'DOMContentLoaded', () => {
 					}
 				},
 				textWidth: 40,
-				outputUnit: 'em',
+				outputUnit: 'px',
 				outputSyntax: 'css',
-				outputVisible: false,
+				outputVisible: true,
 				showGrid: true,
 			},
 
 			output: '',
-			collapse: [ 'basic' ],
+			collapse: [ 'basic','adjustment'],
 			outputElement: doc.querySelector( '.output code' ),
 			sandboxStylesSheetElement: doc.querySelector( '.sandbox-styles' )
 		},
