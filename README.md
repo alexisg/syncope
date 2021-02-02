@@ -1,3 +1,6 @@
+This is a fork of syncope which hardcodes some options for custom use. All credit to Aleksander Nowodzński – http://nowodzinski.pl
+
+
 Syncope
 ========================================
 
@@ -7,4 +10,3 @@ A vertical rhythm tool for developers and designers. See it [in action](http://n
 
 Licensed under the GNU General Public License v3.0 (see the LICENSE file).
 
-This is a private fork of syncope. All credit to Aleksander Nowodzński – http://nowodzinski.pl
